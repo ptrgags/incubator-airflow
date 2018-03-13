@@ -7,6 +7,7 @@ from airflow.utils.decorators import apply_defaults
 from airflow.models import BaseOperator
 from airflow.contrib.hooks.rabbitmq_hook import RabbitMQHook
 
+
 # pylint: disable=too-few-public-methods
 class RabbitMQOperator(BaseOperator):
     """
