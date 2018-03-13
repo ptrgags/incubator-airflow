@@ -6,6 +6,7 @@ import pika
 
 from airflow.hooks.base_hook import BaseHook
 
+
 # pylint: disable=abstract-method,too-few-public-methods
 # TODO: Update docstring once I add an Airflow connection type.
 class RabbitMQHook(BaseHook):
