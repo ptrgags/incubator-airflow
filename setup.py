@@ -139,7 +139,7 @@ hive = [
 jdbc = ['jaydebeapi>=1.1.1']
 mssql = ['pymssql>=2.1.1', 'unicodecsv>=0.14.1']
 mysql = ['mysqlclient>=1.3.6']
-rabbitmq = ['librabbitmq>=1.6.1']
+rabbitmq = ['librabbitmq>=1.6.1', 'pika>=0.11.2']
 oracle = ['cx_Oracle>=5.1.2']
 postgres = ['psycopg2-binary>=2.7.4']
 ssh = ['paramiko>=2.1.1']
