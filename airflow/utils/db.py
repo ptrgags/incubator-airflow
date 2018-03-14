@@ -190,6 +190,15 @@ def initdb():
             host='druid-overlord', port=8081, extra='{"endpoint": "druid/indexer/v1/task"}'))
     merge_conn(
         models.Connection(
+            conn_id='rabbitmq_default',
+            conn_type='rabbitmq',
+            host='localhost',
+            login='guest',
+            password='guest',
+            schema='/',
+            port=5673))
+    merge_conn(
+        models.Connection(
             conn_id='redis_default', conn_type='redis',
             host='localhost', port=6379,
             extra='{"db": 0}'))
