@@ -552,6 +552,7 @@ class Connection(Base, LoggingMixin):
         ('oracle', 'Oracle',),
         ('vertica', 'Vertica',),
         ('presto', 'Presto',),
+        ('rabbitmq', 'RabbitMQ'),
         ('s3', 'S3',),
         ('samba', 'Samba',),
         ('sqlite', 'Sqlite',),
